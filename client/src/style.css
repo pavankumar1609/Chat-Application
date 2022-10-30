@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.message-container {
+  height: 80vh;
+  border: 1px solid black;
+}
+
+.form-container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.input-message {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.message-container div {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.message-container div:nth-child(odd) {
+  background-color: #ada9a9;
+}
